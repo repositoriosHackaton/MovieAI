@@ -9,7 +9,7 @@ Recuerden que este readme es su puerta de entrada para su proyecto.
 Un ejemplo puede ser: 
 # MovieAI
 
-Breve descripción del proyecto.
+MovieAi es un chatbot desarrollado para recomendar películas de manera personalizada utilizando inteligencia artificial. Este proyecto utiliza técnicas avanzadas de procesamiento de lenguaje natural y redes neuronales para analizar descripciones y géneros de películas proporcionados por los usuarios.
 
 ## Tabla de contenidos
 
@@ -24,6 +24,7 @@ Breve descripción del proyecto.
 
 * MovieAI
 
+* MovieAi sugiere opciones relevantes, transformando la búsqueda de películas en una experiencia rápida y precisa. Ideal para quienes buscan optimizar el tiempo y encontrar películas que se ajusten exactamente a sus preferencias en cualquier ocasión.
 * ![WhatsApp Image 2024-07-11 at 11 02 47 AM](https://github.com/repositoriosHackaton/MovieAI/assets/149196071/8e035da7-615b-4ade-ab84-67ef7915e3f6)
 
 
