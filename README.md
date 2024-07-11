@@ -27,18 +27,28 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
 * MovieAi sugiere opciones relevantes, transformando la búsqueda de películas en una experiencia rápida y precisa. Ideal para quienes buscan optimizar el tiempo y encontrar películas que se ajusten exactamente a sus preferencias en cualquier ocasión.
   ![WhatsApp Image 2024-07-11 at 11 02 47 AM](https://github.com/repositoriosHackaton/MovieAI/assets/149196071/8e035da7-615b-4ade-ab84-67ef7915e3f6)
 
-
-* Arquitectura del proyecto + imagen
+* Arquitectura del proyecto (Imagen)
 
 * Proceso de desarrollo:
-
--Fuente del dataset
--Limpieza de datos (img que lo valide)
+-Fuente del data
+  El dataset se carga desde un archivo JSON llamado movies.json. Este archivo contiene descripciones de películas y sus respectivas calificaciones.
+-Limpieza de datos (Imagen)
+  Tokenización: Las descripciones de las películas se tokenizan usando Tokenizer de Keras.
+  Padding: Las secuencias tokenizadas se rellenan (pad_sequences) para asegurar que todas tengan la misma longitud.
+  Escalado de Calificaciones: Las calificaciones se escalan entre 0 y 1 utilizando MinMaxScaler.
 -Manejo excepciones/control errores
 -¿Qué modelo de Machine Learning están usando?
+  El modelo implementado es una red neuronal secuencial de Keras con las siguientes capas:
+    Embedding
+    LSTM (Long Short-Term Memory)
+    GlobalMaxPooling1D
+    Dense (con activación ReLU)
+    Dense (con activación Sigmoid)
 -Estadísticos (Valores, gráficos, …)
 -Métrica(s) de evaluación del modelo
-
+  Mean Absolute Error (MAE): La métrica principal utilizada para evaluar el modelo.
+  Mean Squared Error (MSE): La función de pérdida utilizada durante el entrenamiento.
+  
 * Funcionalidades extra:
 
 Ejem 1: Implementación de chatbot
@@ -50,18 +60,3 @@ Ejem 1: Implementación de chatbot
 - En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
 - Estadísticos (Valores, gráficos, …)
 - Métrica(s) de evaluación del modelo
-
-Ejem 2: Integración del proyecto en una pág web
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem …: …
-- Tecnología/Herramientas usadas …
