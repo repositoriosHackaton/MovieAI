@@ -30,7 +30,7 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
 * Arquitectura del proyecto (Imagen)
 
 * Proceso de desarrollo:
--Fuente del data
+* Fuente del data
   El dataset se carga desde un archivo JSON llamado movies.json. Este archivo contiene descripciones de películas y sus respectivas calificaciones.
   
 -Limpieza de datos (Imagen)
