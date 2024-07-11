@@ -22,9 +22,10 @@ Breve descripción del proyecto.
 7. [Agradecimientos](#Agradecimientos)
 
 
-* Nombre del proyecto
+* MovieAI
 
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
+* ![WhatsApp Image 2024-07-11 at 11 02 47 AM](https://github.com/repositoriosHackaton/MovieAI/assets/149196071/8e035da7-615b-4ade-ab84-67ef7915e3f6)
+
 
 * Arquitectura del proyecto + imagen
 
