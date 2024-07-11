@@ -25,7 +25,7 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
 * MovieAI
 
 * MovieAi sugiere opciones relevantes, transformando la búsqueda de películas en una experiencia rápida y precisa. Ideal para quienes buscan optimizar el tiempo y encontrar películas que se ajusten exactamente a sus preferencias en cualquier ocasión.
-* ![WhatsApp Image 2024-07-11 at 11 02 47 AM](https://github.com/repositoriosHackaton/MovieAI/assets/149196071/8e035da7-615b-4ade-ab84-67ef7915e3f6)
+  ![WhatsApp Image 2024-07-11 at 11 02 47 AM](https://github.com/repositoriosHackaton/MovieAI/assets/149196071/8e035da7-615b-4ade-ab84-67ef7915e3f6)
 
 
 * Arquitectura del proyecto + imagen
