@@ -35,27 +35,29 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
   
 -Limpieza de datos (Imagen)
   Tokenización: Las descripciones de las películas se tokenizan usando Tokenizer de Keras.
-  Padding: Las secuencias tokenizadas se rellenan (pad_sequences) para asegurar que todas tengan la misma longitud.
-  Escalado de Calificaciones: Las calificaciones se escalan entre 0 y 1 utilizando MinMaxScaler.
+  , Padding: Las secuencias tokenizadas se rellenan (pad_sequences) para asegurar que todas tengan la misma longitud.
+  , Escalado de Calificaciones: Las calificaciones se escalan entre 0 y 1 utilizando MinMaxScaler.
   
 -Manejo excepciones/control errores
 
 -¿Qué modelo de Machine Learning están usando?
   El modelo implementado es una red neuronal secuencial de Keras con las siguientes capas:
     Embedding
-    LSTM (Long Short-Term Memory)
-    GlobalMaxPooling1D
-    Dense (con activación ReLU)
-    Dense (con activación Sigmoid)
+    , LSTM (Long Short-Term Memory)
+    , GlobalMaxPooling1D
+    , Dense (con activación ReLU)
+    , Dense (con activación Sigmoid).
     
 -Estadísticos (Valores, gráficos, …)
 
 -Métrica(s) de evaluación del modelo
   Mean Absolute Error (MAE): La métrica principal utilizada para evaluar el modelo.
-  Mean Squared Error (MSE): La función de pérdida utilizada durante el entrenamiento.
+  , Mean Squared Error (MSE): La función de pérdida utilizada durante el entrenamiento.
   
 * Funcionalidades extra:
-
+  Librerías: numpy, tensorflow, sklearn
+  , Framework: Keras (dentro de TensorFlow).
+  
 Ejem 1: Implementación de chatbot
 - Tecnología/Herramientas usadas (Librería, Framework, …)
 - Arquitectura (img)
