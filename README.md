@@ -7,7 +7,7 @@ Puden, si desean, agregar imágenes o resultados obtenidos.
 Recuerden que este readme es su puerta de entrada para su proyecto. 
 
 Un ejemplo puede ser: 
-# Nombre del Proyecto
+# MovieAI
 
 Breve descripción del proyecto.
 
