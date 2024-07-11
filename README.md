@@ -6,7 +6,6 @@ Puden, si desean, agregar imágenes o resultados obtenidos.
 
 Recuerden que este readme es su puerta de entrada para su proyecto. 
 
-Un ejemplo puede ser: 
 # MovieAI
 
 MovieAi es un chatbot desarrollado para recomendar películas de manera personalizada utilizando inteligencia artificial. Este proyecto utiliza técnicas avanzadas de procesamiento de lenguaje natural y redes neuronales para analizar descripciones y géneros de películas proporcionados por los usuarios.
@@ -39,6 +38,8 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
   , Escalado de Calificaciones: Las calificaciones se escalan entre 0 y 1 utilizando MinMaxScaler.
   
 -Manejo excepciones/control errores
+ValueError: Descripción: Esta excepción se lanza cuando una función recibe un argumento del tipo correcto pero con un valor inapropiado.
+tf.errors.InvalidArgumentError: Descripción: Esta excepción específica de TensorFlow se lanza cuando se pasa un argumento inválido a una función de TensorFlow. Uso en el código: Para capturar errores de argumento inválido que pueden surgir durante la definición o compilación del modelo.
 
 -¿Qué modelo de Machine Learning están usando?
   El modelo implementado es una red neuronal secuencial de Keras con las siguientes capas:
@@ -47,8 +48,6 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
     , GlobalMaxPooling1D
     , Dense (con activación ReLU)
     , Dense (con activación Sigmoid).
-    
--Estadísticos (Valores, gráficos, …)
 
 -Métrica(s) de evaluación del modelo
   Mean Absolute Error (MAE): La métrica principal utilizada para evaluar el modelo.
@@ -58,12 +57,3 @@ MovieAi es un chatbot desarrollado para recomendar películas de manera personal
   Librerías: numpy, tensorflow, sklearn
   , Framework: Keras (dentro de TensorFlow).
   
-Ejem 1: Implementación de chatbot
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
